@@ -62,5 +62,6 @@ if __name__ == "__main__":
     print(f"\n清洗后数据形状: {df.shape}")
     print("\n清洗后缺失率检查（应全为 0）：")
     print(missing_report(df))
-
+    print("\n数值列描述统计（用于异常值初筛）：")
+    print(df.describe().T)
     save_data(df, PROCESSED_PATH)
