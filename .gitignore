@@ -1,0 +1,21 @@
+# 数据不入库
+data/raw/
+data/processed/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
+
+# 模型产物大文件
+*.pkl
+*.joblib
